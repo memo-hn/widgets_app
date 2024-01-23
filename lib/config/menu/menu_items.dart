@@ -32,40 +32,40 @@ const appMenuItems = <MenuItem>[
     icon: Icons.credit_card
   ),
   MenuItem(
-    title: 'App tutorial', 
-    subtitle: 'app tutorial', 
-    link: '/app_tutorial', 
-    icon: Icons.app_registration
-  ),
-  MenuItem(
-    title: 'infinite_scrolls', 
-    subtitle: 'infinite_scrolls', 
-    link: '/infinite_scrolls', 
-    icon: Icons.app_registration
-  ),
-  MenuItem(
     title: 'progress', 
-    subtitle: 'progress', 
+    subtitle: 'Generales y Controlados', 
     link: '/progress', 
-    icon: Icons.add_to_drive_outlined
+    icon: Icons.input_sharp
   ),
   MenuItem(
-    title: 'snackbar', 
-    subtitle: 'snackbar', 
+    title: 'Snackbar y Diàlogos', 
+    subtitle: 'Indicadores en pantalla', 
     link: '/snackbar', 
-    icon: Icons.bar_chart_rounded
+    icon: Icons.speaker_notes
   ),
   MenuItem(
-    title: 'UI Control', 
-    subtitle: 'UI Control', 
-    link: '/ui_controls', 
-    icon: Icons.control_point_outlined
-  ),
-  MenuItem(
-    title: 'animated_screen', 
-    subtitle: 'Animated', 
+    title: 'Animated container', 
+    subtitle: 'Statefull widget animado', 
     link: '/Animated', 
     icon: Icons.animation_outlined
+  ),
+  MenuItem(
+    title: 'UI Control + Tiles', 
+    subtitle: 'Series de controles de Flutter', 
+    link: '/ui_controls', 
+    icon: Icons.key_outlined
+  ),
+  MenuItem(
+    title: 'Introducción a la aplicación', 
+    subtitle: 'Tutorial introductorio', 
+    link: '/app_tutorial', 
+    icon: Icons.app_shortcut_rounded
+  ),
+  MenuItem(
+    title: 'InfiniteScroll y Pull', 
+    subtitle: 'Listas infinitas y pull to refresh', 
+    link: '/infinite_scrolls', 
+    icon: Icons.list_outlined
   ),
 
 
