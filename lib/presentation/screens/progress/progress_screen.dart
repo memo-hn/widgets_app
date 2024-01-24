@@ -10,7 +10,7 @@ class ProgressScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Progress Indicators'), leading: const Icon(Icons.refresh_rounded),),
+      appBar: AppBar(title: const Text('Progress Indicators',), elevation: 20,backgroundColor: Colors.amber),
 
       body: const _ProgressView(),
     );
