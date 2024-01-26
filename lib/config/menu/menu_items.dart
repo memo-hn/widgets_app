@@ -35,7 +35,7 @@ const appMenuItems = <MenuItem>[
     title: 'progress', 
     subtitle: 'Generales y Controlados', 
     link: '/progress', 
-    icon: Icons.input_sharp //.refresh_rounded
+    icon: Icons.input_sharp //.refresh_rounded 
   ),
   MenuItem(
     title: 'Snackbar y Diàlogos', 
@@ -53,7 +53,7 @@ const appMenuItems = <MenuItem>[
     title: 'UI Control + Tiles', 
     subtitle: 'Series de controles de Flutter', 
     link: '/ui_controls', 
-    icon: Icons.key_outlined
+    icon: Icons.car_rental_sharp
   ),
   MenuItem(
     title: 'Introducción a la aplicación', 
